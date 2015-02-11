@@ -5,8 +5,11 @@
 
 
 var yearBorn = 1979;
-var age;
-age = 36;
+var age = 36;  //number variable
+
+var studentID = false; //boolean variable
+
+var firstName = "Kevin"
 
 
 /*console.log(yearBorn);
