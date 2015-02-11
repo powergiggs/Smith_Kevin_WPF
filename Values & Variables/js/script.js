@@ -5,3 +5,5 @@
 //alert("Testing javascript");
 
 var yearBorn = 1979;
+
+console.log(yearBorn);
