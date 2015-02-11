@@ -5,7 +5,11 @@
 
 
 var yearBorn = 1979;
+var age;
+age = 36;
 
-console.log(yearBorn);
-console.log("variable testing");
+
+/*console.log(yearBorn);
+console.log("variable testing");/*
 //alert(yearBorn);
+
