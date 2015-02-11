@@ -6,4 +6,5 @@
 
 var yearBorn = 1979;
 
-console.log(yearBorn);
+//console.log(yearBorn);
+alert(yearBorn);
