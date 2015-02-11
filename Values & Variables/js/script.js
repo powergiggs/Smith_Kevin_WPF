@@ -11,10 +11,10 @@ var isStudent = false; //boolean variable
 
 var firstName = "Kevin";
 
-var myFriends=["Randy", "David","Jafar"];
+var myFriends=["Randy", "David","Jafar"]; //0 1 2
 
 
-/*console.log(yearBorn);
-console.log("variable testing");/*
+console.log(myFriends);
+//console.log("variable testing");/*
 //alert(yearBorn);
 
