@@ -14,6 +14,6 @@
 
 var width = 5;
 var height = 6;
-var area = width * height;
+var area = width * height/2;
 
 console.log(area);
