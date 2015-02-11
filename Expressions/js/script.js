@@ -8,4 +8,8 @@ var a = 2;
 
 a= a + 3;
 
-console.log(a);
+var yearBorn = 1979;
+
+var age = 2015-yearBorn;
+
+console.log(age);
