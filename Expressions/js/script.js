@@ -4,12 +4,16 @@
 
 //alert("test for working");
 
-var a = 2;
+//var a = 2;
 
-a= a + 3;
+//a= a + 3;
 
-var yearBorn = 1979;
+//var yearBorn = 1979;
 
-var age = 2015-yearBorn;
+//var age = 2015-yearBorn - 1;
 
-console.log(age);
+var width = 5;
+var height = 6;
+var area = width * height;
+
+console.log(area);
