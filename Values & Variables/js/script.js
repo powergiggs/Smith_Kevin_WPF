@@ -14,7 +14,7 @@ var firstName = "Kevin";
 var myFriends=["Randy", "David","Jafar"]; //0 1 2
 
 
-console.log(myFriends);
+console.log(myFriends[0]);
 //console.log("variable testing");/*
 //alert(yearBorn);
 
