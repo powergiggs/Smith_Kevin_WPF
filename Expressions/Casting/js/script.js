@@ -12,7 +12,7 @@ var areaCode = 410;
 var firstPart = 501;
 var secPart = 0911;
 
-var phoneNum = areaCode + firstPart + secPart ;
+var phoneNum = String (areaCode) + String (firstPart) + String (secPart) ;
 
 
 console.log(phoneNum);
