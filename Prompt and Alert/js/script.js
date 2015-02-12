@@ -1,7 +1,5 @@
-/**
- * Created by kevinsmith on 2/12/15.
- */
+/* Created by kevin smith on 2/12/15.--*/
 
-/*---Prompt and Alert--*//
+/*---Prompt and Alert--*/
 
-
+prompt();
