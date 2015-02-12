@@ -4,11 +4,17 @@
 
 /*--Casting ---*/
 
-var stringVar ="6";
+//var stringVar ="6";
 
-var result = 7 + Number (stringVar);
+//var result = 7 + Number (stringVar);
 
-console.log(result);
+var areaCode = 410;
+var firstPart = 501;
+var secPart = 0911;
+
+
+
+
 
 
 
