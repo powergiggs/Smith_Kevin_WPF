@@ -4,17 +4,21 @@
 
 
 
-var yearBorn = 1979;
-var age = 36;  //number variable
+//var yearBorn = 1979;
+//var age = 36;  //number variable
 
-var isStudent = false; //boolean variable
+//var isStudent = false; //boolean variable
 
-var firstName = "Kevin";
+//var firstName = "Kevin";
 
-var myFriends=["Randy", "David","Jafar"]; //0 1 2
+//var myFriends=["Randy", "David","Jafar"]; //0 1 2
 
 
-console.log(myFriends[0]);
-//console.log("variable testing");/*
-//alert(yearBorn);
+//console.log(myFriends[0]);
+
+/*Expression --- Order of Operations*/
+
+
+
+
 

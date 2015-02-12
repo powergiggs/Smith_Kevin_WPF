@@ -24,3 +24,5 @@ var quiz1=100;
 var quiz2=87;
 var quiz3=92;
 var quiz4=89;
+
+var average = quiz1+quiz2+quiz3+quiz4;
