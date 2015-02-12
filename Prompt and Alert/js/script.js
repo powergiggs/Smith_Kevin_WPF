@@ -2,7 +2,11 @@
 
 /*---Prompt and Alert--*/
 
-var userInput = prompt("Enter your Year of birth");
 
-console.log(userInput);
+var width = prompt("We are calculating the area of rectangle. Please enter width");
+var height = prompt("Please enter height");
+
+
+
+//console.log(userInput);
 
