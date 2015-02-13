@@ -17,4 +17,6 @@ var average = (Number(dayOne)+Number(dayTwo)+Number(dayThree)+Number(dayFour)+Nu
 
 
 
-console.log("You ran a average "+ average + " miles for the five days but ran " + dayOne + " miles on your first day");
+alert ("You ran a average "+ average + " miles for the five days but \n ran " + dayOne + " miles on your first day");
+
+//
