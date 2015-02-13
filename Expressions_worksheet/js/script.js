@@ -34,4 +34,4 @@ var totalGro = weeklyGrocery[0]+weeklyGrocery[1]+weeklyGrocery[2]+weeklyGrocery[
 
 var average = totalGro/5; // variable calculation for grocery average
 
-console.log(average);
+console.log("You have spent a total of $" +totalGro+ " on groceries over 5 weeks. That is an average of $" + average +" per week");// print result showing both total and average for grocery spending
