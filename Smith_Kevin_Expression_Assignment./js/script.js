@@ -11,7 +11,7 @@ var dayFive = prompt ("Please enter final miles.");   // prompt user for final i
 
 //var arrayValues = Number [dayOne, dayTwo, dayThree, dayFour, dayFive];   // array variable to store the date from user
 
-//var result =  (arrayValues.) /5;
+
 
 var average = (Number(dayOne)+Number(dayTwo)+Number(dayThree)+Number(dayFour)+Number(dayFive))/5; //   Variable use to store calculation for the average result
 
@@ -19,4 +19,4 @@ var average = (Number(dayOne)+Number(dayTwo)+Number(dayThree)+Number(dayFour)+Nu
 
 alert ("You ran a average "+ average + " miles for the five days but \n ran " + dayOne + " miles on your first day");
 
-//
+/*  I type 45,35,50,25 and 30 respectively and my calculator gave me 185 for total and 37 for average when divided by 5 */
