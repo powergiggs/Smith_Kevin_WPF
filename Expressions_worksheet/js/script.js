@@ -39,12 +39,16 @@ console.log("You have spent a total of $" +totalGro+ " on groceries over 5 weeks
 
 /*Discounts*/
 
-var orgPrice= 200;
-var discount = "30";
-var item = "watch";
-var saleTax = 0.10
-var discountPrice= orgPrice - (orgPrice * Number (discount/100));
+var orgPrice= 200; //variable for item original  price
+var discount = 30; // variable for discount amount
+var item = "watch"; // variable string for item name
+var saleTax = 0.10 // variable for sale tax
 
-var priceWithTax = (discountPrice*saleTax) + discountPrice;
+var discountPrice = orgPrice- (orgPrice *  (discount/100)); //discount price calculation
 
-console.log(priceWithTax);
+var pWithTax =  (discountPrice * saleTax) + discountPrice  ; //calculation for item with tax
+
+var pWithoutTax = discountPrice; //variable item without tax
+
+
+console.log("Your " + item +" was originally $"+orgPrice+", but after a " + discount+ "% discount, it is now $"+ pWithoutTax + " without tax, and $" + pWithTax + " with tax.");// print result showing accurate result
