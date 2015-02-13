@@ -11,7 +11,7 @@ console.log ("Sparky is " + humanAge + " human years old which is "+ dogAge +" i
 
 var pizzaSlice = 8; // variable for number of slices per pizza
 
-var nuPeople = 11; // Variable for number of people at party
+var nuPeople = 16; // Variable for number of people at party
 
 var nuPizzaOrder = 4; // variable to represent number of pizzas ordered
 
@@ -22,6 +22,6 @@ console.log ("Each person ate "+ slicePerPerson + " slices of pizza at the party
 
 /*Slice of Pie part II*/
 
-var dogSlices = (pizzaSlice * nuPizzaOrder)% nuPeople; // var
-console.log (dogSlices);
+var dogSlices = (pizzaSlice * nuPizzaOrder)% nuPeople; // calculation for sparky slices
+console.log ("Sparky got " + dogSlices + " slices of pizza.");// printing result of sparky slices
 
