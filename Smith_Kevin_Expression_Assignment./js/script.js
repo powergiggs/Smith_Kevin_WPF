@@ -5,6 +5,6 @@ var dayTwo = prompt ("Please enter the miles.");   //prompt user for the second 
 
 var dayThree = prompt ("Please enter miles one more time."); // prompt user for the third input value
 
+var arrayValues = [dayOne, dayTwo, dayThree];   //
 
-
- console.log(dayThree);
+ console.log(arrayValues);
