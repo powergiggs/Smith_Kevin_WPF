@@ -15,4 +15,6 @@ var dayFive = prompt ("Please enter final miles.");   // prompt user for final i
 
 var average = (Number(dayOne)+Number(dayTwo)+Number(dayThree)+Number(dayFour)+Number(dayFive))/5; //   Variable use to store calculation for the average result
 
- console.log(average);
+
+
+console.log("You ran a average "+ average + " miles for the five days but ran " + dayOne + " miles on your first day");
