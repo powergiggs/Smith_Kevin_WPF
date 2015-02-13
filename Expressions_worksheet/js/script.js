@@ -25,3 +25,13 @@ console.log ("Each person ate "+ slicePerPerson + " slices of pizza at the party
 var dogSlices = (pizzaSlice * nuPizzaOrder)% nuPeople; // calculation for sparky slices
 console.log ("Sparky got " + dogSlices + " slices of pizza.");// printing result of sparky slices
 
+
+
+/*Average shopping bill*/
+
+var weeklyGrocery = [120, 233, 452, 235, 300]; //variable array declare
+var totalGro = weeklyGrocery[0]+weeklyGrocery[1]+weeklyGrocery[2]+weeklyGrocery[3]+weeklyGrocery[4]; //variable calculation for grocery total
+
+var average = totalGro/5; // variable calculation for grocery average
+
+console.log(average);
