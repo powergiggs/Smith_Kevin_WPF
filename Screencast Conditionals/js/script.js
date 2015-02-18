@@ -4,7 +4,7 @@
 
     //Conditional logic else if
 
-var kidHeight = 46;
+var kidHeight = 43;
 var minHeight = 48;
 var wParentHeight = 45;
 
@@ -15,7 +15,7 @@ if(kidHeight > minHeight ) {
         // you can ride
     console.log("You can ride the coaster!");
 
-}else if (kidHeight > wParentHeight){
+}else if (kidHeight < wParentHeight){
         //code perform if condition is false
     console.log ("you can ride, but only with parent present");
 }else{
