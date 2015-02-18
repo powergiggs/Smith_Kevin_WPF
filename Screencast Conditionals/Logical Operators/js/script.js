@@ -3,11 +3,11 @@
  */
 // Conditional Logic - Logical Operators
 
-var budget = 300;
+var budget = 100;
 var smartPhone = 199.9;
-var paycheck = 200;
+var wonLottery = true;
 
-if(smartPhone < budget && paycheck > 300){
+if(smartPhone < budget || wonLottery){
     console.log("We can buy the phone!!");
 
 
