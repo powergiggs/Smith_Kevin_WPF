@@ -4,18 +4,19 @@
 
 //Ternary Operators
 
-var gpa = 4;
+var age = 6;
+var book;
 
-// if gpa is over the min score, the student can graduate
+//if the child is under 10, they green Eggs and Ham, otherwise they get the machine
 
-
-/*if(gpa > 2.0){
-    console.log("You can graduate!");
+/*if(age < 10){
+    book = "Green Eggs and Hams";
 
 
 }else{
-    console.log("GPA is too low!");
+    book = "The Time Machine";
 
 }*/
 
-(gpa > 2.0) ? console.log ("You can graduate") : console.log("GPA too Low");
+book =(age < 10) ? "Green Eggs and Ham" : "The Time Machine";
+console.log(book);
