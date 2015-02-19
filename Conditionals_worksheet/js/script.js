@@ -4,6 +4,10 @@
  * Conditionals Worksheet
  */
 
+var mpg = 30;
+var gasGauge = 44;
+var gasTankCapacity =20;
+
 
 
 
