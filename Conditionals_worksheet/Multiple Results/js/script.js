@@ -19,7 +19,7 @@ if(enterName === userName && enterPassword === passWord ){
 
     console.log("Welcome," +userName+ "!"); // code execute if the condition is true
 
-
+// if the name enter is not equal to the username
     }else if(enterName != userName ){
 
     console.log("User not found. Try again.") // code execute if user name do not match
