@@ -14,9 +14,11 @@ var wkSalary = weeklyHours * hourRate; //calculation for salary before tax
 
 var taxSalary = wkSalary - incomeTax/100 * wkSalary ;// salary with tax deduction
 
-if(weeklyHours === ""  && hourRate === "" ){ //codes execute if there is no value enter in  prompt
+// if the values equal true codes print to console
 
-    console.log ("please enter values for weekly hours and hourly rate");
+if(weeklyHours === ""  && hourRate === "" ){
+
+    console.log ("please enter values for weekly hours and hourly rate"); //codes execute if there is no value enter in  prompt
 
 
     }else if(incomeTax === ""){
@@ -25,7 +27,7 @@ if(weeklyHours === ""  && hourRate === "" ){ //codes execute if there is no valu
 
 }else{
 
- conso
+ console.log("your weekly salary before tax is $" +wkSalary + " and $"+ taxSalary + " after tax."  );
 
 }
 
