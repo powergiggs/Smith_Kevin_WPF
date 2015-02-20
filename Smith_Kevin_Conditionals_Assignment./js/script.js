@@ -31,13 +31,15 @@ if(weeklyHours === ""  && hourRate === "" ){
 
  console.log("your weekly salary before tax is $" +wkSalary + " and $"+ taxSalary + " after tax."  );
 
+ // salary before and after tax print to console
+
 }
 
 //if the weekly hours is more than 40 hours get "you have earn some extra cash" otherwise "No overtime sorry"
 
 overTime = (weeklyHours > 40) ? "You have earn some extra cash" : "No overtime sorry"; //
 
-console.log(overTime);
+console.log(overTime); 
 
 
 
