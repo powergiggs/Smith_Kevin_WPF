@@ -39,8 +39,8 @@ if(weeklyHours === ""  && hourRate === "" ){
 
 overTime = (weeklyHours > 40) ? "You have earn some extra cash" : "No overtime sorry"; //
 
-console.log(overTime); 
+console.log(overTime);
+
+// I type in 40 for hours, 32 for hourly rate and 5 for tax rate and calculator gave 1280 for salary before tax and 1216 after tax
 
 
-
-//console.log (taxSalary);
