@@ -29,4 +29,3 @@ if(gasGauge > mpg && mpg > gasTankCapacity ){
 
 
 
-
