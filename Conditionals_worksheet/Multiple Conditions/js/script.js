@@ -12,7 +12,7 @@ var discountPrice= 7.00;
 var regularPrice = 12.00
 var movieTime = 2;
 
-var customerAge = 20
+var customerAge = 54
 
 // if the customer is under 10 or 55 and older print to console
 if(customerAge < 10 || customerAge >= 55 ){
