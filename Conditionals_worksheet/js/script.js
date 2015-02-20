@@ -5,24 +5,25 @@
  */
 
 var mpg = 30;
-var gasGauge = 50;
+var gasGauge = 55;
 var gasTankCapacity =15;
 
-//if the gas mileage per gallon and Gauge level  is more than the gas thank capacity
+var gasAvailable = gasGauge/100 * gasTankCapacity;   // this code calculates available gas and store as variable
 
-//print to console Yes, you can make it without stopping for gas!
+//if the gas Gauge is greater than miles per gallon and miles per gallon is more than gas thank capacity
+
 
 if(gasGauge > mpg && mpg > gasTankCapacity ){
 
-    console.log("Yes, you can make it without stopping for gas!");
+  console.log("Yes, you can make it without stopping for gas!");
     // code print to console if conditions is true
 
 
 }else{
 
-    console.log("You only have " + gasTankCapacity +" gallons of gas in your tank,\nbetter get gas now while you can! ");
+    console.log("You only have " + gasAvailable +" gallons of gas in your tank,\nbetter get gas now while you can! ");
 
-//code print to console if condition is falls
+//code print to console if conditions is false
 
 }
 
