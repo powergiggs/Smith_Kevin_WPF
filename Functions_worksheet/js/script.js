@@ -7,7 +7,7 @@
 
 //Calculate the circumference of a circle.
 
-var circumTotal = calculateCircumference (4); //variable to store function
+var circumTotal = calculateCircumference (8); //variable to store function
 
 function calculateCircumference (radius){
     var circumference = 2 * Math.PI * radius; // code for circumference calculation
@@ -15,4 +15,4 @@ function calculateCircumference (radius){
     return circumference; // return value outside function
 }
 
-console.log(circumTotal);
+console.log("The circumference of the circle is " + circumTotal); //function result print to console.log
