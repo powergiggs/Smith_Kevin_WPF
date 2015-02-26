@@ -16,3 +16,10 @@ function calculateCircumference (radius){
 }
 
 console.log("The circumference of the circle is " + circumTotal); //function result print to console.log
+
+
+
+//Stung!--Calculate how many bee stings are needed to kill an animal
+
+var stingTotal = calculateBeeSting ();
+
