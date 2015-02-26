@@ -21,14 +21,13 @@ console.log("The circumference of the circle is " + circumTotal); //function res
 
 //Stung!--Calculate how many bee stings are needed to kill an animal
 
-var stingTotal = calculateBeeSting (50); //
+var stingTotal = calculateBeeSting (50); // variable to store function
 
 function calculateBeeSting (pounds){
 
-    var pounds;// variable to store pound value
     var beeSting = 8.666666667 * pounds; // code to calculate bee stings needed
     return beeSting;// return value outside function for use
 }
 
-console.log(stingTotal);
+console.log("It takes " + stingTotal  +" bee stings to kill this animal."); //function calculation print to console.log
 
