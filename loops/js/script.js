@@ -16,7 +16,7 @@ while (b > 10){ // checks the condition
 
 // Do while loop
 
-console.log("------ Do While Loop -----");
+console.log("------ Do While Loops -----");
 
 var c = 10;
 
@@ -27,3 +27,10 @@ do {
 }
 
 while (c > 0);
+
+console.log("----- For Loops ------ ")
+
+for (var i = 10; i > 0; i--){
+    console.log(i + " books on the shelf");
+
+}
