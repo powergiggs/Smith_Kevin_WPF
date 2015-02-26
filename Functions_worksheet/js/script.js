@@ -27,7 +27,8 @@ function calculateBeeSting (pounds){
 
 var beeSting = 8.666666667 * pounds; // code to calculate bee stings
 
-
+    return beeSting;// return value outside function for use
 }
+
 
 
