@@ -27,3 +27,16 @@ function dogYears(age){
 
 }
 dogYears(6)
+
+
+//Function- Returning Values
+
+var total = calcArea(30, 20);
+
+function calcArea(w, h){
+var area = w * h;
+    return area; // function spitting out the info
+
+}
+
+console.log(total);
