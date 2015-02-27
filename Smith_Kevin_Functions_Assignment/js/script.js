@@ -10,9 +10,10 @@
 var myLottery = prompt("Please enter florida for Florida Lottery or powerball for Powerball lottery results");
 //prompt user to enter value florida or powerball to see results
 
-var floridaLottery;
-var powerballLottery;
-var powerBallNum;
+var floridaLottery = lotteryNumberGenerator(1, 53);
+var powerballLottery = lotteryNumberGenerator(1, 59);
+var powerBallNum = lotteryNumberGenerator(1, 35);
+var lotteryResult;
 
 
 //functions
@@ -26,15 +27,12 @@ function inputValidation(lotteryType){
 
         if(lotteryType !=="florida" || lotteryType !=="powerball" ){
 
-
-
         }
         if (i > 5 ){
 
 
             break;
         }
-
 
 
     }
@@ -62,7 +60,19 @@ var randomNumbers = Math.random() * (max - min) + min;
 }
 
 
+function printUserResult (){ //
 
+    if(myLottery === "florida"){
+
+        console.log("FL lottery numbers: " + floridaLottery );
+    }
+
+    else if(myLottery === "powerball"){
+
+        console.log("PowerBall lottery numbers: " + powerballLottery + " with PB " + powerBallNum[0] );
+    }
+return(myLottery) ;
+}
 
 
 
@@ -70,11 +80,13 @@ var randomNumbers = Math.random() * (max - min) + min;
 
 
 //Main Code
+lotteryResult = printUserResult();
+
 myLottery = inputValidation(myLottery);
 floridaLottery = lotteryNumberGenerator(1, 53);
 powerballLottery  = lotteryNumberGenerator(1, 59);
 powerBallNum = lotteryNumberGenerator(1, 35);
 
-console.log("FL lottery numbers: " + floridaLottery );
+//console.log("FL lottery numbers: " + floridaLottery );
 
 //console.log(myLottery);
