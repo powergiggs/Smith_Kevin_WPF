@@ -34,3 +34,12 @@ for (var i = 10; i > 0; i--){
     console.log(i + " books on the shelf");
 
 }
+
+var throwCount;
+var diceThrow;
+for (throwCount = 0; throwCount < 10; throwCount++){
+    diceThrow = (Math.floor(Math.random() * 6) + 1);
+
+}
+
+console.log (diceThrow );
