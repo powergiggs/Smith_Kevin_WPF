@@ -16,6 +16,8 @@ console.log("My favorite sport is " + mySport + ".");
 
 console.log("I live at " + myStreetNumber + " Clearview Ave.");
 
+console.log("It is " + isMale + " Kevin is a male");
+
 
 
 //alert("Hello World");
