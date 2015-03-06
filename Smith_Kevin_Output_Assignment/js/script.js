@@ -7,6 +7,10 @@
 
 var mySport = "Soccer";
 
+var myStreetNumber = 2816;
+
+
+
 
 
 //alert("Hello World");
