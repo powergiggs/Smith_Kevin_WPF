@@ -9,6 +9,9 @@ var mySport = "Soccer";
 
 var myStreetNumber = 2816;
 
+var isMale = true;
+
+
 
 
 
