@@ -4,4 +4,9 @@
  *  Output_Assignment
  */
 
-alert("Hello World");
+
+var mySport = "Soccer";
+
+
+
+//alert("Hello World");
