@@ -14,6 +14,8 @@ var isMale = true;
 
 console.log("My favorite sport is " + mySport + ".");
 
+console.log("I live at " + myStreetNumber + " Clearview Ave.");
+
 
 
 //alert("Hello World");
