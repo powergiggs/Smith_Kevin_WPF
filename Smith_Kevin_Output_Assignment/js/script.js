@@ -12,7 +12,7 @@ var myStreetNumber = 2816;
 var isMale = true;
 
 
-
+console.log("My favorite sport is " + mySport + ".");
 
 
 
