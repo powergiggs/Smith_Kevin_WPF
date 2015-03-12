@@ -14,11 +14,11 @@ var timePeriod = prompt ("Please enter time period in years for\n which the mone
 
 rate = rate/100; //calculation for reducing rate variable to decimal
 
-var userValue =  [Number(principalAmount), Number(timePeriod)];// array variable for converting user input to number value
+var userValue =  [Number(principalAmount), Number(rate), Number(timePeriod)];// array variable for converting user input to number value
+
+var interestCalc = userValue[0] * rate * userValue [1];// variable to calculate and store result from user prompt input
 
 
 
 
-
-
-console.log(userValue);
+//console.log(interestCalc.toFixed());
