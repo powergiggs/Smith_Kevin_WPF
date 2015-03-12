@@ -25,3 +25,14 @@ console.log("Hello your interest amount is $" + interestCalc.toFixed()+ " for yo
 
 
 
+/*
+I typed 14,000 for principal amount, 7 for interest percentage rate and 3 for the amount of years
+and result yield 2,940 for interest amount.
+
+also
+
+ I typed 23,000 for principal amount, 10 for interest percentage rate and 2 for the amount of years
+ and result yield 4,600 for interest amount.
+
+
+ */
