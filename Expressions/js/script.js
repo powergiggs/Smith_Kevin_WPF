@@ -27,4 +27,8 @@ var quiz4=89;
 
 var average = (quiz1+quiz2+quiz3+quiz4)/4;
 
-//console.log(average);
+var x = 5;
+
+x++;
+
+console.log(x);
