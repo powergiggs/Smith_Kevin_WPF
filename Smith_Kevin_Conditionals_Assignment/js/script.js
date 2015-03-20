@@ -28,8 +28,8 @@ if(numberMiles === "" && milesPerGallon === ""  ){// if condition is true
     console.log ("Your " + numberMiles + " miles road trip will cost you $" + tripCost.toFixed(2)+ " in fuel at " + milesPerGallon + " miles per gallon. ");// print to console if condition 1 and 2 is false
 }
 
-costlyTrip = (tripCost >= 30) ? "Very expensive trip costing you $30 or more" :"Not an expensive trip costing you less than $30"; // 
+costlyTrip = (tripCost >= 30) ? "Very expensive trip costing you $30 or more" :"Not an expensive trip costing you less than $30"; // ternary statement store in variable
 
 
 
-console.log(costlyTrip); pr
+console.log(costlyTrip); //ternary condition print to console
