@@ -5,9 +5,13 @@
  */
 
 
-var numberMiles = prompt("Please enter number of miles for your trip"); // prompt user to enter their trip distance in miles
-var milesPerGallon = prompt("Please enter the car miles per gallon "); // prompt user to enter car miles per gallon
+var numberMiles = prompt("Please enter the number of miles for your trip"); // prompt user to enter their trip distance in miles
+var milesPerGallon = prompt("Please enter the car miles per gallon efficiency "); // prompt user to enter car miles per gallon
 var fuelPrice = prompt("Please enter the cost of fuel per gallon"); // prompt user to enter the cost of fuel per gallon
 
+var fuelVolume = numberMiles/milesPerGallon;// variable to calculate fuel volume
+var tripCost = fuelVolume * fuelPrice; // variable to calculate trip cost for fuel
 
-//console.log(numberMiles);
+
+
+console.log(tripCost);
