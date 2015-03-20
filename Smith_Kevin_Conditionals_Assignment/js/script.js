@@ -33,3 +33,8 @@ costlyTrip = (tripCost >= 30) ? "Very expensive trip costing you $30 or more" :"
 
 
 console.log(costlyTrip); //ternary condition print to console
+
+/*
+
+I type 150 for trip miles, 33 for miles per gallon and 2.4 for fuel price per gallon which produce 10.91 for total fuel cost for trip
+ */
