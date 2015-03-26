@@ -44,6 +44,8 @@ var randomNumbers = Math.random() * (max - min) + min;
         lotteryArray[i] = randomNumbers;//
 
 
+
+
       //console.log(randomNumbers);
 
 
@@ -62,12 +64,12 @@ function printUserResult (){ // function to show result to user
     else if(myLottery === "powerball"){// checks if input is equal to powerball
 
         // print result to user if input is powerball
-        console.log("Your PowerBall lottery numbers: " + powerballLottery + " with PB " + powerBallNum[0] );
+        console.log("Your PowerBall lottery numbers: " + powerballLottery  + " with PB " + powerBallNum[0] );
     }
 return(myLottery) ;
 }
 
-
+powerballLottery.pop();// reduce powerball to 5 random numbers
 
 
 
