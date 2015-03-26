@@ -1,8 +1,7 @@
 /**
  *  Kevin Smith
- *  2/26/15
+ *  3/26/15
  *  Functions_Assignment
- *
  */
 
 //Variables
@@ -14,25 +13,22 @@ var floridaLottery = lotteryNumberGenerator(1, 53);
 var powerballLottery = lotteryNumberGenerator(1, 59);
 var powerBallNum = lotteryNumberGenerator(1, 35);
 var lotteryResult;
+myLottery = inputValidation(myLottery);
 
 
 //functions
 
 function inputValidation(lotteryType){
-    var i = 0;
+
     while(lotteryType === "" ){ // if condition is true prompt user
 
-        lotteryType = prompt ("Do not leave this field blank\n\n Please enter 'florida' or 'powerball' for results")
-       i++;
-
-        if(lotteryType !=="florida" || lotteryType !=="powerball" ){
-
-        }
-        if (i > 5 ){
+        lotteryType = prompt ("Do not leave this field blank\n\n Please enter 'florida' or 'powerball' for results");
 
 
-            break;
-        }
+      //  if(lotteryType !=="florida" || lotteryType !=="powerball" ){
+
+      //  }
+
 
 
     }
