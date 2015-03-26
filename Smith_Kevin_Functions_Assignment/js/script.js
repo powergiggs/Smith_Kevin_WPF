@@ -23,11 +23,7 @@ function inputValidation(lotteryType){
     while(lotteryType === "" ){ // if condition is true prompt user
 
         lotteryType = prompt ("Do not leave this field blank\n\n Please enter 'florida' or 'powerball' for results");
-
-
-      //  if(lotteryType !=="florida" || lotteryType !=="powerball" ){
-
-      //  }
+        // while loop prompt for user
 
 
 
@@ -60,13 +56,13 @@ function printUserResult (){ // function to show result to user
 
     if(myLottery === "florida"){ // checks if input is equal to florida
 
-        console.log("FL lottery numbers: " + floridaLottery );// print result to user if input is florida
+        console.log("Your Florida lottery numbers: " + floridaLottery );// print result to user if input is florida
     }
 
     else if(myLottery === "powerball"){// checks if input is equal to powerball
 
         // print result to user if input is powerball
-        console.log("PowerBall lottery numbers: " + powerballLottery + " with PB " + powerBallNum[0] );
+        console.log("Your PowerBall lottery numbers: " + powerballLottery + " with PB " + powerBallNum[0] );
     }
 return(myLottery) ;
 }
