@@ -76,10 +76,14 @@ powerballLottery.pop();// reduce powerball to 5 random numbers
 
 //Main Code
 lotteryResult = printUserResult();
+
 /*
-myLottery = inputValidation(myLottery);
-floridaLottery = lotteryNumberGenerator(1, 53);
-powerballLottery  = lotteryNumberGenerator(1, 59);
-powerBallNum = lotteryNumberGenerator(1, 35);
+code tested and yield the results
+
+Your Florida lottery numbers: 24,48,30,49,7,40
+
+and
+
+Your PowerBall lottery numbers: 14,7,11,55,44 with PB 25
 
 */
