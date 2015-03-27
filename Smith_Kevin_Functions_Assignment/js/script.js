@@ -13,23 +13,23 @@ var floridaLottery = lotteryNumberGenerator(1, 53);
 var powerballLottery = lotteryNumberGenerator(1, 59);
 var powerBallNum = lotteryNumberGenerator(1, 35);
 var lotteryResult;
-myLottery = inputValidation(myLottery);
+myLottery = inputValidation();
 
 
 //functions
 
-function inputValidation(lotteryType){
+function inputValidation(){
 
-    while(lotteryType === "" ){ // if condition is true prompt user
+    while (myLottery === "" || myLottery !== "florida" && myLottery !== "powerball" ){ // if condition is true prompt user
 
-        lotteryType = prompt ("Do not leave this field blank\n\n Please enter 'florida' or 'powerball' for results");
+        myLottery = prompt ("Do not leave this field blank\n\n Please enter 'florida' or 'powerball' for results");
         // while loop prompt for user
 
 
 
     }
 
-return (lotteryType);
+return (myLottery);
 
 }
 
@@ -76,8 +76,10 @@ powerballLottery.pop();// reduce powerball to 5 random numbers
 
 //Main Code
 lotteryResult = printUserResult();
-
+/*
 myLottery = inputValidation(myLottery);
 floridaLottery = lotteryNumberGenerator(1, 53);
 powerballLottery  = lotteryNumberGenerator(1, 59);
 powerBallNum = lotteryNumberGenerator(1, 35);
+
+*/
